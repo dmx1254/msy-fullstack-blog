@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2? family= Lora:ital,wght@1,500 & famille= Poppins:wght@200 & display= échanger');
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+.settingsDeleteTitle{
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.bio{
+    width: 400px;
+    height: 200px;
+    resize: none;
+    outline: none;
+    padding: 20px;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.settingsPP > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.settingsPPIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #05d7ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #05d7ff;
+    outline: none;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #05d7ff;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#lab__select{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#lab__select label{
+    margin: 10px 0;
+}

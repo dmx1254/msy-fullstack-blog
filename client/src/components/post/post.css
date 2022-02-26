@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2? family= Lora:ital,wght@1,500 & famille= Poppins:wght@200 & display= échanger");
+.post {
+  width: 385px;
+  margin: 0px 25px 40px 25px;
+}
+.postImg {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.likes {
+  position: absolute;
+  left: -120px;
+  top: 10px;
+  font-size: 20px;
+  color: #272de8;
+  display: flex;
+}
+
+.postCat {
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  color: #be9656;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.postTitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.postDate {
+  font-family: "Lora" serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #999;
+  margin-top: 13px;
+}
+
+.postDesc {
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  color: #444;
+  line-height: 24px;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.edit__area {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  /* border: none; */
+  outline: none;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px;
+}
+.successin {
+  float: right;
+  font-size: 15px;
+  padding: 10px;
+  background: #34ef47;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+}
+.annul{
+    float: right;
+    font-size: 15px;
+    padding: 10px;
+    background: #bb2124;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: "Poppins", sans-serif;
+    margin: 5px 10px;
+}
+.stopupdating {
+  width: 10px;
+  height: 5px;
+  background: #bb2124;
+  border-radius: 2px;
+  animation: stopanim 4s linear infinite ;
+}
+
+@keyframes stopanim {
+  0% {
+    width: 10px;
+    height: 5px;
+  }
+ 
+  20% {
+    width: 100px;
+    height: 5px;
+  }
+  40% {
+    width: 200px;
+    height: 5px;
+  }
+  60% {
+    width: 300px;
+    height: 5px;
+  }
+  80% {
+    width: 400px;
+    height: 5px;
+  }
+  
+  100% {
+    width: 10px;
+    height: 5px;
+  }
+}
+
+.postCats {
+  display: flex;
+  position: relative;
+}
+.singlePostEdit {
+  right: -140px;
+  position: absolute;
+  top: 10px;
+}
+
+.likesIcon {
+  position: absolute;
+  right: -60px;
+  top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

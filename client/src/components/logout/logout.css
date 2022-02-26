@@ -1,0 +1,11 @@
+.logout{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: #e0e0e098;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: 1000;
+}
